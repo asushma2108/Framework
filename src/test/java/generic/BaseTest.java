@@ -78,7 +78,7 @@ public class BaseTest
 				@Optional("no") String grid,
 				@Optional("http://localhost:4444") String gridURL,					
 				@Optional("chrome") String browser,
-				@Optional("http://www.google.com") String appURL,
+				@Optional("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login") String appURL,
 				@Optional("7") String ITO,
 				@Optional("6") String ETO	
 			) throws MalformedURLException	
