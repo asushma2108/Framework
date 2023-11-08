@@ -8,36 +8,27 @@
       <![CDATA[Browser is:chrome]]>
     </line>
     <line>
-      <![CDATA[Set ITO:7]]>
+      <![CDATA[Set ITO:10]]>
     </line>
     <line>
-      <![CDATA[Enter the URL:http://www.google.com]]>
+      <![CDATA[Enter the URL:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
     </line>
     <line>
       <![CDATA[Maximize the browser]]>
     </line>
     <line>
-      <![CDATA[Set ETO:6]]>
-    </line>
-    <line>
-      <![CDATA[Rowcount:1]]>
-    </line>
-    <line>
-      <![CDATA[Data:Akshara]]>
-    </line>
-    <line>
-      <![CDATA[test demo...]]>
+      <![CDATA[Set ETO:9]]>
     </line>
     <line>
       <![CDATA[Close the browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-11-06T14:57:06 SGT" name="Default suite" finished-at="2023-11-06T14:57:10 SGT" duration-ms="4040">
+  <suite started-at="2023-11-07T15:45:25 SGT" name="Suite" finished-at="2023-11-07T15:45:33 SGT" duration-ms="7603">
     <groups>
     </groups>
-    <test started-at="2023-11-06T14:57:06 SGT" name="Default test" finished-at="2023-11-06T14:57:10 SGT" duration-ms="4040">
-      <class name="script.DemoTest">
-        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.DemoTest@72967906]" started-at="2023-11-06T14:57:06 SGT" name="preCondition" finished-at="2023-11-06T14:57:10 SGT" duration-ms="3183" status="PASS">
+    <test started-at="2023-11-07T15:45:25 SGT" name="Test" finished-at="2023-11-07T15:45:33 SGT" duration-ms="7603">
+      <class name="script.Validpage">
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.Validpage@3349e9bb]" started-at="2023-11-07T15:45:25 SGT" name="preCondition" finished-at="2023-11-07T15:45:30 SGT" duration-ms="5313" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,7 +37,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[http://localhost:4444]]>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
               </value>
             </param>
             <param index="2">
@@ -56,17 +47,17 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[http://www.google.com]]>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
               </value>
             </param>
             <param index="4">
               <value>
-                <![CDATA[7]]>
+                <![CDATA[10]]>
               </value>
             </param>
             <param index="5">
               <value>
-                <![CDATA[6]]>
+                <![CDATA[9]]>
               </value>
             </param>
           </params>
@@ -78,37 +69,28 @@
               <![CDATA[Browser is:chrome]]>
             </line>
             <line>
-              <![CDATA[Set ITO:7]]>
+              <![CDATA[Set ITO:10]]>
             </line>
             <line>
-              <![CDATA[Enter the URL:http://www.google.com]]>
+              <![CDATA[Enter the URL:https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
             </line>
             <line>
               <![CDATA[Maximize the browser]]>
             </line>
             <line>
-              <![CDATA[Set ETO:6]]>
+              <![CDATA[Set ETO:9]]>
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="testDemo()[pri:0, instance:script.DemoTest@72967906]" started-at="2023-11-06T14:57:10 SGT" name="testDemo" finished-at="2023-11-06T14:57:10 SGT" duration-ms="711" status="PASS">
+        <test-method signature="testValidLogin()[pri:1, instance:script.Validpage@3349e9bb]" started-at="2023-11-07T15:45:30 SGT" name="testValidLogin" finished-at="2023-11-07T15:45:32 SGT" duration-ms="2138" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Rowcount:1]]>
-            </line>
-            <line>
-              <![CDATA[Data:Akshara]]>
-            </line>
-            <line>
-              <![CDATA[test demo...]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- testDemo -->
-        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:script.DemoTest@72967906]" started-at="2023-11-06T14:57:10 SGT" name="postCondition" finished-at="2023-11-06T14:57:10 SGT" duration-ms="106" status="PASS">
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:script.Validpage@3349e9bb]" started-at="2023-11-07T15:45:32 SGT" name="postCondition" finished-at="2023-11-07T15:45:33 SGT" duration-ms="108" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testDemo status=SUCCESS method=DemoTest.testDemo()[pri:0, instance:script.DemoTest@72967906] output=Rowcount:1]]]>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=Validpage.testValidLogin()[pri:1, instance:script.Validpage@3349e9bb] output={null}]]]>
               </value>
             </param>
           </params>
@@ -118,7 +100,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- script.DemoTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- script.Validpage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

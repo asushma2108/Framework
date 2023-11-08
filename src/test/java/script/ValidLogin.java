@@ -2,23 +2,27 @@ package script;
 
 
 
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import generic.BaseTest;
+import generic.Excel;
 import page.DashboardPage;
 import page.LoginPage;
 
-public class Validpage extends BaseTest
+public class ValidLogin extends BaseTest
 {
 	@Test(priority = 1)
 	public void testValidLogin()
 	{
+		String un = Excel.getData("./data/input.xlsx","ValidLogin", 1, 0);
+		String pw = Excel.getData("./data/input.xlsx","ValidLogin", 1, 1);
 //		1. enter valid un
 		LoginPage loginPage=new LoginPage(driver);
-		loginPage.setUserName("Admin");
+		loginPage.setUserName(un);
 //		2. enter valid pw
-		loginPage.setPassword("admin123");
+		loginPage.setPassword(pw);
 //		3. click on login button
 		loginPage.clickLoginButton();
 //		4. home page should be displayed
